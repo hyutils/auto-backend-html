@@ -1,0 +1,69 @@
+.informationRoot {
+  width: calc(100% - 48px);
+  margin: 24px;
+  padding: 24px 24px 0;
+  height: 220px;
+  border: 1px solid #f0f0f0;
+  background: #fff;
+
+
+  .name {
+    font-size: 20px;
+  }
+
+  .information-content {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+
+    .left {
+      width: 30%;
+      padding: 0px 12px;
+    }
+
+    .right {
+      width: 30%;
+      padding: 0px 12px;
+    }
+
+    .item {
+      height: 34px;
+      line-height: 22px;
+      display: flex;
+      justify-content: space-between;
+
+      .hide-img {
+        display: none;
+      }
+
+      .btn-box {
+
+        .ok-btn {
+          margin-right: 8px;
+        }
+      }
+
+      .text-area {
+        height: 70px;
+        width: 438px;
+        margin-bottom: 8px;
+      }
+
+      .input {
+        width: 220px;
+      }
+
+      &:hover {
+        .show {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          margin-right: 0px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
